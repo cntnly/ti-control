@@ -1,0 +1,4 @@
+{
+    "devAPI" : "http://localhost:5020",
+    "prodAPI": "http://localhost:5000"
+}

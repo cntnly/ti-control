@@ -1,0 +1,38 @@
+{
+  "name": "ti-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --config webpack.dev-config.js",
+    "build": "NODE_ENV=PRODUCTION webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode development --config webpack.dev-config.js",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
